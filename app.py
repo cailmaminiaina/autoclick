@@ -6,7 +6,7 @@ from fake_useragent import UserAgent
 import os
 
 # URL cible
-url = "https://getallmylinks.com/jesscute1"
+url = "https://getallmylinks.com/laic"
 
 # Configuration des proxies Bright Data
 BRIGHT_DATA_HOST = "brd.superproxy.io"
