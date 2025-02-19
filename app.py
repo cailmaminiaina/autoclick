@@ -3,6 +3,7 @@ import random
 import time
 from datetime import datetime, timedelta
 from fake_useragent import UserAgent
+import os
 
 # URL cible
 url = "https://getallmylinks.com/jesscute1"
@@ -10,8 +11,8 @@ url = "https://getallmylinks.com/jesscute1"
 # Configuration des proxies Bright Data
 BRIGHT_DATA_HOST = "brd.superproxy.io"
 BRIGHT_DATA_PORT = "33335"
-BRIGHT_DATA_USERNAME = "brd-customer-hl_048c6da0-zone-residential_proxy1"
-BRIGHT_DATA_PASSWORD = "drfox4y86uww"  # 🔴
+BRIGHT_DATA_USERNAME = os.getenv("BRIGHT_DATA_USERNAME")
+BRIGHT_DATA_PASSWORD = os.getenv("BRIGHT_DATA_PASSWORD")
 ssl_path = "BrightData SSL certificate (port 33335).crt"
 
 # Liste de pays (modifier selon les besoins)
