@@ -13,7 +13,7 @@ BRIGHT_DATA_HOST = "brd.superproxy.io"
 BRIGHT_DATA_PORT = "33335"
 BRIGHT_DATA_USERNAME = os.getenv("BRIGHT_DATA_USERNAME")
 BRIGHT_DATA_PASSWORD = os.getenv("BRIGHT_DATA_PASSWORD")
-ssl_path = "certificate.crt"
+ssl_path = "BrightData SSL certificate (port 33335).crt"
 # Liste de pays (modifier selon les besoins)
 COUNTRIES = ["us", "us", "us", "us", "us", "gb", "ca", "au", "nz", "fr"]
 
