@@ -70,7 +70,7 @@ def bot_task():
             print(f"[{clicks_today + 1}/{MAX_CLICKS_PER_DAY}] ⚠️ Erreur avec proxy {country.upper()}")
 
         # Pause aléatoire entre 30 et 600 secondes (0.5 à 10 minutes)
-        sleep_time = random.uniform(30, 600)
+        sleep_time = random.uniform(2, 6)
         print(f"⏳ Pause de {sleep_time:.2f} secondes avant le prochain clic...")
         time.sleep(sleep_time)
 
